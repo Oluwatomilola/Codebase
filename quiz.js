@@ -19,20 +19,7 @@ let counter;
 let counterLine;
 let widthValue = 0;
 
-const questions = [
-    {
-        numb: 1,
-        question: "What does HTML stand for?",
-        answer: "Hyper Text Markup Language",
-        options: [
-            "Hyper Text Meta Language",
-            "Hyper Text Markup Language",
-            "Hyper Text Markup Level",
-            "Hyper Text Meta Level"
-        ]
-    },
-    // You can add more questions here
-];
+
 
 // if startQuiz button clicked
 start_btn.onclick = ()=>{
